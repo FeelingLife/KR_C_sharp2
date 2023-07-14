@@ -16,3 +16,5 @@ for (int i = 0; i < array.Length; i++)
         resArrayIndex = resArrayIndex + 1;
     }
 }
+
+Console.WriteLine("Массив из строк, длина которых меньше, либо равна 3 символам: \n" + $"[{String.Join(", ", resArray)}]\n");
